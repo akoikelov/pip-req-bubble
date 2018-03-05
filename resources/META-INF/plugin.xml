@@ -1,0 +1,33 @@
+<idea-plugin version="2">
+  <id>kg.akoikelov.pycharm.prbubble</id>
+  <name>Info bubble for python requirements</name>
+  <version>0.0.1</version>
+  <vendor email="kolyakoikelov@gmail.com">Aykol Koykelov</vendor>
+
+  <description><![CDATA[
+      This plugin help to quickly know information about chosen python library in requirements file
+    ]]></description>
+
+  <change-notes><![CDATA[
+      No changes
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="141.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+
+  </extensions>
+
+  <actions>
+
+  </actions>
+
+</idea-plugin>
