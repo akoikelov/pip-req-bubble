@@ -47,9 +47,7 @@ public class PackageInfoBubbleAction extends AnAction {
         SelectionModel selectionModel = editor.getSelectionModel();
         String packageName = selectionModel.getSelectedText();
 
-        if (statusBar == null) {
-            statusBar = WindowManager.getInstance().getStatusBar(e.getProject());
-        }
+        statusBar = WindowManager.getInstance().getStatusBar(e.getProject());
 
         ApplicationManager.getApplication().invokeLater(() -> {
             try {
