@@ -1,8 +1,8 @@
 <idea-plugin version="2">
-  <id>kg.akoikelov.pycharm.prbubble</id>
+  <id>Pip requirements info bubble</id>
   <name>Info bubble for python requirements</name>
   <version>0.0.1</version>
-  <vendor email="kolyakoikelov@gmail.com">Aykol Koykelov</vendor>
+  <vendor email="kolyakoikelov@gmail.com" url="https://github.com/akoikelov/pip-req-bubble">Aykol Koykelov</vendor>
 
   <description><![CDATA[
       This plugin helps to quickly know information about chosen python library in requirements file
@@ -26,8 +26,14 @@
 
   </extensions>
 
+  <depends>com.intellij.modules.lang</depends>
+
   <actions>
 
+    <action id="actions.packageinfobubble" class="kg.akoikelov.prbubble.PackageInfoBubbleAction" text="Get package info"
+            description="Get package info">
+      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+    </action>
   </actions>
 
 </idea-plugin>
