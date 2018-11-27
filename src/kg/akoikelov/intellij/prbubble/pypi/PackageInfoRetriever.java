@@ -1,7 +1,7 @@
-package kg.akoikelov.prbubble.pypi;
+package kg.akoikelov.intellij.prbubble.pypi;
 
-import kg.akoikelov.prbubble.exception.PackageNotFoundException;
-import kg.akoikelov.prbubble.exception.PypiUnknownException;
+import kg.akoikelov.intellij.prbubble.exception.PackageNotFoundException;
+import kg.akoikelov.intellij.prbubble.exception.PypiUnknownException;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;

@@ -1,4 +1,4 @@
-package kg.akoikelov.prbubble.exception;
+package kg.akoikelov.intellij.prbubble.exception;
 
 /**
  * Created by akoikelov

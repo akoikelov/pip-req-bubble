@@ -1,4 +1,4 @@
-package kg.akoikelov.prbubble;
+package kg.akoikelov.intellij.prbubble;
 
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
@@ -14,9 +14,9 @@ import com.intellij.openapi.ui.popup.JBPopupFactory;
 import com.intellij.openapi.wm.StatusBar;
 import com.intellij.openapi.wm.WindowManager;
 import com.intellij.ui.awt.RelativePoint;
-import kg.akoikelov.prbubble.exception.PackageNotFoundException;
-import kg.akoikelov.prbubble.exception.PypiUnknownException;
-import kg.akoikelov.prbubble.pypi.PackageInfoRetriever;
+import kg.akoikelov.intellij.prbubble.exception.PackageNotFoundException;
+import kg.akoikelov.intellij.prbubble.exception.PypiUnknownException;
+import kg.akoikelov.intellij.prbubble.pypi.PackageInfoRetriever;
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
 

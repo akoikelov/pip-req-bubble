@@ -1,5 +1,5 @@
 <idea-plugin version="2">
-  <id>Pip requirements info bubble</id>
+  <id>kg.akoikelov.intellij.prbubble</id>
   <name>Info bubble for python requirements</name>
   <version>0.0.1</version>
   <vendor email="kolyakoikelov@gmail.com" url="https://github.com/akoikelov/pip-req-bubble">Aykol Koykelov</vendor>
@@ -30,7 +30,7 @@
 
   <actions>
 
-    <action id="actions.packageinfobubble" class="kg.akoikelov.prbubble.PackageInfoBubbleAction" text="Get package info"
+    <action id="actions.packageinfobubble" class="kg.akoikelov.intellij.prbubble.PackageInfoBubbleAction" text="Get package info"
             description="Get package info">
       <add-to-group group-id="EditorPopupMenu" anchor="first"/>
     </action>
